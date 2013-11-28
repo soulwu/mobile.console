@@ -1,0 +1,20 @@
+{
+  "name": "mobile.console",
+  "version": "0.1.0",
+  "homepage": "https://github.com/soulwu/mobile.console",
+  "authors": [
+    "soulwu <soulwuzjjx@vip.qq.com>"
+  ],
+  "description": "A console window plugin for mobile html5 web app",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "zepto": "~1.0.0"
+  }
+}
