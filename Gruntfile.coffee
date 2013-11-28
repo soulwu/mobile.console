@@ -62,6 +62,14 @@ module.exports = (grunt) ->
         files:
           'build/<%= pkg.name %>.min.js': 'build/<%= pkg.name %>.js'
 
+    # Watching for changes
+    # --------------------
+    watch:
+      files: ['src/**/*.coffee']
+      tasks: [
+        'build'
+      ]
+
 
   for name of pkg.devDependencies when name.substring(0, 6) is 'grunt-'
     grunt.loadNpmTasks name
